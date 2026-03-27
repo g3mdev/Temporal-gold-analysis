@@ -5,9 +5,9 @@ Dataset: Gold Price Dataset 2016-2026 — sourced from Kaggle: https://www.kaggl
 
 Key Features:
 
-Annual highs, lows and mean calculations
-Price trend visualisation
-Statistical insights across the decade
+*Annual highs, lows and mean calculations
+*Price trend visualisation
+*Statistical insights across the decade
 
 This project is currently in progress — further statistical inference will be added in future.
 
