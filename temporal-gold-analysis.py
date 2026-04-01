@@ -100,15 +100,13 @@ lows = [
     242.05,
     396.25,
 ]
-
+plt.figure(1)
 plt.plot(years, highs, label="High Prices", marker="D")
 plt.plot(years, lows, label="Low Prices", marker="D")
 plt.xlabel("Year")
 plt.ylabel("Price")
 plt.title("Gold Yearly Highs and Lows")
 plt.legend(loc="lower center", bbox_to_anchor=(1.5, -0.2), ncol=2)
-plt.show()
-
 
 # Plotting bar chart
 years = [2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026]
@@ -142,6 +140,7 @@ lows = [
 width = 0.35  # width of the bars
 
 # Create bars side by side
+plt.figure(2)
 plt.bar(
     [y - width / 2 for y in years],
     highs,
